@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Minimal Site</title>
+	<link rel="stylesheet" href="https://unpkg.com/wingcss"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+	 <button onclick="topFunction()" id="myBtn" title="Go to top">
+	 	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+	 </button> 
+	
+			<div id="myNav" class="overlay">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  	<div class="overlay-content">
+			    <a href="#use"  onclick="closeNav()">Used</a>
+			    <a href="#revw"  onclick="closeNav()">Reviews</a>
+			    <a href="#social"  onclick="closeNav()">Socials</a>
+		  	</div>
+			</div>
+			<header>
+			<nav class="nav-menu container">
+			  <p>LOGO</p>
+			  <a onclick="openNav()" class="burger">
+			  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+			  </a>
+			</nav>
+		</header>
+		<div class="hero full-screen text-center center vertical-align">
+			<h1 data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">Hello <span>There,</span></h1>
+			<p data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">Did my clean and elegant Web desigan bought you here? (Lol, I'm just kidding)</p>
+
+			<a class="button" href="#use">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-down"><polyline id="point1" points="7 13 12 18 17 13"></polyline><polyline id="point2" points="7 6 12 11 17 6"></polyline></svg>
+			</a>
+		</div>
+
+	<div class="article container center full-screen text-center">
+		<h1 data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500"  id="use">What I used</h1>
+		<div class="row">
+		  <div class="col" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
+		  	<h4>Wing CSS</h4>
+		  	<p>Found out about this small, lightweight and minimalist CSS framework that was listed on Brad's github repo which can be found <a href="https://github.com/bradtraversy/design-resources-for-developers" target="_blank">here</a>
+		  	</p>
+		  </div>
+		  <div class="col" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
+		  	<h4>AOS.js</h4>
+		  	<p>Little bit of animation. So that it doesn't let my website be more dull than usual <a href="https://michalsnik.github.io/aos/" target="_blank">😛</a>
+		  	</p>
+		  </div>
+		  <div class="col" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
+		  	<h4>SVG</h4>
+		  	<p>SVG icons used for the hamburger menu and the bit of animation at the bottom of the hero section. Used from <a href="https://feathericons.com/" target="_blank">Feather Icons</a>
+		  	</p>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="col" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
+		  	<h4>Stock Photos</h4>
+		  	<p>Two Stock Photos used from <a href="https://www.pexels.com/" target="_blank">Pexels</a>. And compressed those images at <a href="https://tinypng.com/" target="_blank">tinypng.com</a> for a more lighter experience. 😉
+		  	</p>
+		  </div>
+		  <div class="col" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
+		  	<h4>Flexbox</h4>
+		  	<p>Lots and lots of CSS Flexbox 😁. Tbh I used a lot of Flexbox than I did with the CSS framework.
+		  	</p>
+		  </div>
+		  <div class="col" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
+		  	<h4>Parallax</h4>
+		  	<p>Added a parallax experience to my Review section. I wanted to make it look fancy. 🤷‍
+		  	</p>
+		  </div>
+		</div>
+	</div>
+
+
+	<div class="parallax center text-center" id="revw">
+		<h1>Reviews</h1>
+		<p>The CSS framework is minimal and lightweight for sure but I mostly ended up using a lot of custom coded CSS with flexbox than using the framework itself. Tbh, all I needed was to align items, divs and contents. I wanted to practice my Coding skill back again cause I haven't done that in along a** time. Hope you like my clean design. I think I'm gonna work on a ecommerce design next time. This on feels simple and easy at the same time. The <b>MVP</b> goes to the small SVG animation that I coded with css, which is the scroll indicator. </p>
+		<p>I Hope you like my design. Cheers!</p>
+	</div>
+
+
+	<div class="social full-screen text-center">
+		<h1 data-aos="zoom-in"
+     data-aos-easing="ease-in-out"
+     data-aos-duration="500"  id="social">Socials</h1>
+		<ul data-aos="zoom-in"
+     data-aos-easing="ease-in-out"
+     data-aos-duration="500">
+		    <li><a href="https://github.com/OkenHaha" target="_blank">Github</a></li>
+		    <li><a href="https://twitter.com/OkenK45" target="_blank">Twitter</a></li>
+		    <li><a href="https://www.youtube.com/channel/UCmtjpHKHX3jPr-iFTVFarhg" target="_blank">Youtube</a></li>
+		</ul>
+	</div>
+
+
+	<footer class="footer text-center">
+			Designed and coded by <a href="https://twitter.com/OkenK45" target="_blank">Oken K.</a>
+	</footer>
+<script type="text/javascript">
+	function openNav() {
+  document.getElementById("myNav").style.left = "0%";
+	}
+	function closeNav() {
+	  document.getElementById("myNav").style.left = "100%";
+	}
+	mybutton = document.getElementById("myBtn");
+
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	    mybutton.style.display = "block";
+	  } else {
+	    mybutton.style.display = "none";
+	  }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	  document.body.scrollTop = 0; // For Safari
+	  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+	} 
+</script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
