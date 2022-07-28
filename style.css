@@ -3,6 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+p{
+	font-size: calc(1.5em - 40%);
+}
 html{
 	scroll-behavior: smooth;
 	scroll-padding: 5vh;
@@ -103,6 +106,9 @@ body{
 }
 .hero span{
 	color: var(--secondary);
+	background: var(--dom);
+	border-radius: 5%;
+	padding: 0 5px 0 5px;
 }
 .hero p{
 	color: var(--dom);
@@ -181,6 +187,12 @@ body{
 	padding: 20px;
   background-blend-mode: multiply;
 }
+.parallax h1{
+	color: var(--secondary);
+	background: var(--dom);
+	border-radius: 5%;
+	padding: 0 5px 0 5px;
+}
 .parallax p{
 	font-weight:500;
 	text-align:justify;
@@ -207,6 +219,8 @@ body{
 }
 .social li a{
 	color: var(--secondary);
+	letter-spacing: 3px;
+	font-weight: bold;
 }
 .footer{
 	width:100%;
